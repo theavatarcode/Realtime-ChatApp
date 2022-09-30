@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-y: hidden;
+}
 
 #form {
     display: grid;
@@ -42,6 +45,7 @@
 
 }
 
+
 #messages li span {
     background-color: #8dd18f;
     color: #202020;
@@ -62,4 +66,16 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 0;
 
+}
+
+#messages li.center {
+    justify-content: center;
+}
+#messages li.center p{
+    
+    color: #9e9d9d;
+    padding: 5px;
+    margin: 0.5rem 1rem;
+    
+    max-width: 300px;
 }
